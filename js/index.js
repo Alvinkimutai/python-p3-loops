@@ -1,3 +1,12 @@
+let i = 0;
+while (i<5){
+  console.log("looping..");
+  i++;
+}
+
+
+
+
 /*
   Write a method `happy_new_year` that outputs numbers starting at 10 and
    counting down to 1. After reaching 1, print out "Happy New Year!"
@@ -48,6 +57,7 @@ function reverseString(str) {
   return reversedStr;
 }
 
+console.log(reverseString('alvin'))
 
 /*
 Write a function `square_integers()` that takes one argument, a list of
